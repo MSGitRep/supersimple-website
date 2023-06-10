@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apple Store</title>
+</head>
+<body>
+<h1>Apple Store</h1>
+<p>We sell four types of apples:</p>
+<ul>
+<li>Red Delicious</li>
+<li>Granny Smith</li>
+<li>Golden Delicious</li>
+<li>Honeycrisp</li>
+</ul>
+<p>To purchase an apple, please select the type of apple you want and the quantity you want.</p>
+<form action="/checkout" method="post">
+<input type="radio" name="apple" value="red_delicious">Red Delicious
+<input type="radio" name="apple" value="granny_smith">Granny Smith
+<input type="radio" name="apple" value="golden_delicious">Golden Delicious
+<input type="radio" name="apple" value="honeycrisp">Honeycrisp
+<br>
+Quantity: <input type="number" name="quantity">
+<br>
+<input type="submit" value="Purchase">
+</form>
+</body>
+</html>
